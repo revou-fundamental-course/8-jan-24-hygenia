@@ -1,0 +1,84 @@
+<html lang="en"> 
+ <head></head> 
+ <body>
+   , 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap"> 
+  <title>Kalkulator Persegi</title> 
+  <header> 
+   <h1>Kalkulator Persegi</h1> 
+  </header> 
+  <section class="layout"> 
+   <br> 
+   <div class="hidden"> <text-welcome> 
+     <h2>𓆝 𓆟 Welcome To My Page 𓆞 𓆝</h2> 
+     <p>Hey kids, this is your mom</p> 
+     <p>⋆☾⋆⁺₊✧:･ﾟ✧:･.☽˚｡･ﾟ✧:</p> 
+    </text-welcome> 
+   </div> 
+   <div class="hidden"> 
+    <p>Oh nah. Hello! This website was created to complete assignments from RevoU Software Engineering Fundamental Course</p> 
+    <p>Website ini dapat digunakan untuk menghitung luas dan keliling persegi</p> 
+   </div> 
+   <div class="hidden"> 
+    <p>mau coba?</p> 
+   </div>
+  </section> 
+  <div class="layout-2"> 
+   <div class="calculator-header"> 
+    <h2><span class="header-background">Luas Persegi</span></h2> 
+   </div> 
+   <div class="calculator"> 
+    <div class="image"> 
+     <img src="asset/img/Screenshot 2023-09-13 133025.png" alt="persegi"> 
+    </div> 
+    <div class="calculator-text"> 
+     <p>Rumus luas persegi yaitu :</p> <strong>L = s × s</strong> 
+     <br> 
+     <p>Dimana :</p> <strong>L = Luas</strong> 
+     <br> <strong>s = sisi</strong> 
+     <h3>Hitung Luas Persegi</h3> 
+     <form id="myForm"> <!-- <label for="angka"><strong>Hitung Luas Persegi : </strong></label> --> 
+      <input type="number" placeholder="Ketik sisi persegi" id="angka" min="0" name="angka" required> 
+      <div class="tombol"> 
+       <br> <button class="button-hitung" type="button" id="hitungButton">Hitung</button> <button class="button-reset" type="reset">Reset</button> 
+      </div> 
+     </form> 
+     <p><strong><span>Hasil :</span></strong></p> 
+     <p><strong><span id="sisi"></span></strong></p> 
+     <p><strong><span id="hasil"></span></strong></p> 
+    </div> 
+   </div> 
+   <br> 
+   <div class="calculator-header"> 
+    <h2><span class="header-background">Keliling Persegi</span></h2> 
+   </div> 
+   <div class="calculator"> 
+    <div class="image"> 
+     <img src="asset/img/Screenshot 2023-09-13 133025.png" alt="persegi"> 
+    </div> 
+    <div class="calculator-text"> 
+     <p>Rumus keliling persegi yaitu :</p> 
+     <p><strong>K = s + s + s + s </strong> atau <strong>K = 4 × s</strong></p> 
+     <p>Dimana :</p> <strong>K = Keliling</strong> 
+     <br> <strong>s = sisi</strong> 
+     <h3>Hitung Keliling Persegi</h3> 
+     <form id="myForm"> 
+      <input type="number" placeholder="Ketik sisi persegi" id="angkaKeliling" min="0" name="angkaKeliling" required> 
+      <br> 
+      <div class="tombol"> <button class="button-hitung" type="button" id="hitungKelilingButton">Hitung</button> <button class="button-reset" type="reset">Reset</button> 
+      </div> 
+     </form> 
+     <p><strong><span>Hasil :</span></strong></p> 
+     <p><strong><span id="sisiKeliling"></span></strong></p> 
+     <p><strong><span id="hasilKeliling"></span></strong></p> 
+    </div> 
+   </div> 
+  </div> 
+  <footer> <small></small> 
+  </footer> 
+  <script src="js/script.js"></script> 
+ </body>
+</html>
